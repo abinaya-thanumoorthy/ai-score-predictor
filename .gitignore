@@ -1,0 +1,54 @@
+# =========================
+# Python Backend
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.pkl
+.env
+venv/
+.venv/
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.env
+*.pid
+*.seed
+
+# =========================
+# React Frontend
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.cache/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Git
+# =========================
+*.swp
+*.swo
+
+# =========================
+# Optional
+# Keep your sample CSV tracked
+# Ignore only generated large datasets if needed
+# =========================
+# backend/data/generated_data.csv
